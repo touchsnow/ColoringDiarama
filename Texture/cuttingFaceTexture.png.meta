@@ -1,0 +1,40 @@
+{
+  "ver": "1.0.18",
+  "importer": "image",
+  "imported": true,
+  "uuid": "52cab7d3-b95d-4ed3-88e7-c32bacf745e2",
+  "files": [
+    ".png",
+    ".json"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "52cab7d3-b95d-4ed3-88e7-c32bacf745e2@6c48a",
+      "displayName": "cuttingFaceTexture",
+      "id": "6c48a",
+      "name": "texture",
+      "ver": "1.0.19",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "52cab7d3-b95d-4ed3-88e7-c32bacf745e2"
+      }
+    }
+  },
+  "userData": {
+    "type": "texture",
+    "redirect": "52cab7d3-b95d-4ed3-88e7-c32bacf745e2@6c48a"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "ver": "2.0.14",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "90dbd801-1e23-468f-b769-cd7518735023",
+  "files": [
+    ".js",
+    ".trans"
+  ],
+  "subMetas": {},
+  "userData": {
+    "importAsPlugin": false,
+    "importerSettings": 7,
+    "moduleId": "project:///assets/Framework3D/Src/AD/ads/videoAd/VideoXM.js"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "ver": "1.0.29",
+  "importer": "prefab",
+  "imported": true,
+  "uuid": "e140975e-edc8-4dcf-8b85-3120cd83c963",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {},
+  "userData": {
+    "syncNodeName": "PrivacyPolicyUI"
+  }
+}

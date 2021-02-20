@@ -1,0 +1,73 @@
+{
+  "ver": "1.0.18",
+  "importer": "image",
+  "imported": true,
+  "uuid": "662ad931-d91b-406d-9be9-57407381872b",
+  "files": [
+    ".png",
+    ".json"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "662ad931-d91b-406d-9be9-57407381872b@6c48a",
+      "displayName": "btn_gray",
+      "id": "6c48a",
+      "name": "texture",
+      "ver": "1.0.19",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "662ad931-d91b-406d-9be9-57407381872b"
+      }
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "662ad931-d91b-406d-9be9-57407381872b@f9941",
+      "displayName": "btn_gray",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "ver": "1.0.8",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 122,
+        "height": 127,
+        "rawWidth": 122,
+        "rawHeight": 127,
+        "borderTop": 23,
+        "borderBottom": 21,
+        "borderLeft": 25,
+        "borderRight": 24,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "662ad931-d91b-406d-9be9-57407381872b@6c48a",
+        "atlasUuid": ""
+      }
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "redirect": "662ad931-d91b-406d-9be9-57407381872b@f9941"
+  }
+}

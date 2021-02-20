@@ -1,0 +1,13 @@
+{
+  "ver": "1.0.29",
+  "importer": "prefab",
+  "imported": true,
+  "uuid": "757f84e5-560a-4b25-ad83-ca63d09a30ae",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {},
+  "userData": {
+    "syncNodeName": "DialogRootNode"
+  }
+}

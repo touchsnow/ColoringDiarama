@@ -1,0 +1,92 @@
+{
+  "ver": "1.3.21",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "3c1c9c1b-2d32-4b8b-ae96-9e40bcac8e5a",
+  "files": [],
+  "subMetas": {
+    "f79a0": {
+      "importer": "gltf-mesh",
+      "uuid": "3c1c9c1b-2d32-4b8b-ae96-9e40bcac8e5a@f79a0",
+      "displayName": "",
+      "id": "f79a0",
+      "name": "[water].mesh",
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      }
+    },
+    "c286c": {
+      "importer": "gltf-material",
+      "uuid": "3c1c9c1b-2d32-4b8b-ae96-9e40bcac8e5a@c286c",
+      "displayName": "",
+      "id": "c286c",
+      "name": "0012_drive_water-0.material",
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      }
+    },
+    "b995b": {
+      "importer": "gltf-material",
+      "uuid": "3c1c9c1b-2d32-4b8b-ae96-9e40bcac8e5a@b995b",
+      "displayName": "",
+      "id": "b995b",
+      "name": "0012_drive_water-1.material",
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 1
+      }
+    },
+    "c92ce": {
+      "importer": "gltf-scene",
+      "uuid": "3c1c9c1b-2d32-4b8b-ae96-9e40bcac8e5a@c92ce",
+      "displayName": "",
+      "id": "c92ce",
+      "name": "0012_drive_text.prefab",
+      "ver": "1.0.11",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      }
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "redirect": "3c1c9c1b-2d32-4b8b-ae96-9e40bcac8e5a@c92ce",
+    "assetFinder": {
+      "meshes": [
+        "3c1c9c1b-2d32-4b8b-ae96-9e40bcac8e5a@f79a0"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "3c1c9c1b-2d32-4b8b-ae96-9e40bcac8e5a@c286c",
+        "3c1c9c1b-2d32-4b8b-ae96-9e40bcac8e5a@b995b"
+      ],
+      "scenes": [
+        "3c1c9c1b-2d32-4b8b-ae96-9e40bcac8e5a@c92ce"
+      ]
+    }
+  }
+}

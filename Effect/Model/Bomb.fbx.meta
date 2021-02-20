@@ -1,0 +1,60 @@
+{
+  "ver": "1.3.21",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "546c20b3-f36e-4bb2-886e-c976a73b4724",
+  "files": [],
+  "subMetas": {
+    "16ec0": {
+      "importer": "gltf-mesh",
+      "uuid": "546c20b3-f36e-4bb2-886e-c976a73b4724@16ec0",
+      "displayName": "",
+      "id": "16ec0",
+      "name": "bomb:bomb_0.mesh",
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      }
+    },
+    "aa2dd": {
+      "importer": "gltf-scene",
+      "uuid": "546c20b3-f36e-4bb2-886e-c976a73b4724@aa2dd",
+      "displayName": "",
+      "id": "aa2dd",
+      "name": "Bomb.prefab",
+      "ver": "1.0.11",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      }
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "redirect": "546c20b3-f36e-4bb2-886e-c976a73b4724@aa2dd",
+    "assetFinder": {
+      "meshes": [
+        "546c20b3-f36e-4bb2-886e-c976a73b4724@16ec0"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "551d206b-06e1-4b17-8b8d-5ae59fd60624"
+      ],
+      "scenes": [
+        "546c20b3-f36e-4bb2-886e-c976a73b4724@aa2dd"
+      ]
+    },
+    "dumpMaterials": true
+  }
+}

@@ -1,0 +1,220 @@
+// Copyright (c) 2017-2018 Xiamen Yaji Software Co., Ltd.
+CCEffect %{
+  techniques:
+  - name: opaque
+    passes:
+    - vert: unlit-vs:vert
+      frag: unlit-fs:frag
+      properties: &props
+        mainTexture:    { value: grey }
+        tilingOffset:   { value: [1, 1, 0, 0] }
+        mainColor:      { value: [1, 1, 1, 1], editor: { type: color } }
+        colorScale:     { value: [1, 1, 1], target: colorScaleAndCutoff.xyz }
+        alphaThreshold: { value: 0.5, target: colorScaleAndCutoff.w, editor: { parent: USE_ALPHA_TEST } }
+        color:          { target: mainColor, editor: { visible: false } } # backward compability
+        Hue : { value: 0, inspector : { displayName : "色相[0-359]" } }
+        Saturation : { value : 1.0, inspector : { displayName : "饱和度[0-3.0]" } }
+        Value : { value : 1.0, inspector : { displayName : "色调[0-3.0]" } }
+        MoveDirtX : { value : 1.0, inspector : { displayName : "X的移动方向" } }
+        MoveDirtY : { value : 1.0, inspector : { displayName : "Y的移动方向" } }
+      migrations: &migs
+        properties:
+          mainColor:    { formerlySerializedAs: color }
+  - name: transparent
+    passes:
+    - vert: unlit-vs:vert
+      frag: unlit-fs:frag
+      depthStencilState: &d1
+        depthTest: true
+        depthWrite: false
+      blendState:
+        targets:
+        - blend: true
+          blendSrc: src_alpha
+          blendDst: one_minus_src_alpha
+          blendDstAlpha: one_minus_src_alpha
+      properties: *props
+      migrations: *migs
+  - name: add
+    passes:
+    - vert: unlit-vs:vert
+      frag: unlit-fs:frag
+      rasterizerState: &r1 { cullMode: none }
+      depthStencilState: *d1
+      blendState:
+        targets:
+        - blend: true
+          blendSrc: src_alpha
+          blendDst: one
+          blendSrcAlpha: src_alpha
+          blendDstAlpha: one
+      properties: *props
+      migrations: *migs
+  - name: alpha-blend
+    passes:
+    - vert: unlit-vs:vert
+      frag: unlit-fs:frag
+      rasterizerState: *r1
+      depthStencilState: *d1
+      blendState:
+        targets:
+        - blend: true
+          blendSrc: src_alpha
+          blendDst: one_minus_src_alpha
+          blendSrcAlpha: src_alpha
+          blendDstAlpha: one_minus_src_alpha
+      properties: *props
+      migrations: *migs
+}%
+
+CCProgram unlit-vs %{
+  precision highp float;
+  #include <input>
+  #include <cc-global>
+  #include <cc-local-batch>
+  out vec4 view_vu;
+  uniform TexCoords {
+    vec4 tilingOffset;
+  };
+  #if USE_VERTEX_COLOR
+    in vec4 a_color;
+    out vec4 v_color;
+  #endif
+
+  #if USE_TEXTURE
+    in vec2 a_texCoord;
+    out vec2 v_uv;
+
+  #endif
+
+  vec4 vert () {
+    vec4 position;
+    CCVertInput(position);
+
+    mat4 matWorld;
+    CCGetWorldMatrix(matWorld);
+
+    #if USE_TEXTURE
+      v_uv = a_texCoord;
+      #if FLIP_UV
+        v_uv.y = 1.0 - v_uv.y;
+      #endif
+      v_uv = v_uv * tilingOffset.xy + tilingOffset.zw;
+    #endif
+
+    #if USE_VERTEX_COLOR
+      v_color = a_color;
+    #endif
+    view_vu = (cc_matView * matWorld) * position;
+    view_vu.xy = view_vu.xy * tilingOffset.xy + tilingOffset.zw;
+    return cc_matProj * (cc_matView * matWorld) * position;
+  }
+}%
+
+CCProgram unlit-fs %{
+  precision mediump float;
+  #include <output>
+  #if USE_ALPHA_TEST
+    #pragma define ALPHA_TEST_CHANNEL options([a, r, g, b])
+  #endif
+    in vec4 view_vu;
+
+  #if USE_TEXTURE
+    in vec2 v_uv;
+    uniform sampler2D mainTexture;
+  #endif
+
+  uniform Constant {
+    vec4 mainColor;
+    vec4 colorScaleAndCutoff;
+    float Hue;
+    float Saturation;
+    float Value;
+    float MoveDirtX;
+    float MoveDirtY;
+  };
+
+  #if USE_VERTEX_COLOR
+    in vec4 v_color;
+  #endif
+
+    vec3 RGBConvertToHSV(vec3 rgb) {
+    float R = rgb.x, G = rgb.y, B = rgb.z;
+    vec3 hsv;
+    float max1 = max(R,max(G,B));
+    float min1 = min(R,min(G,B));
+    if (R == max1) {
+      hsv.x = (G-B)/(max1-min1);
+    }
+    if (G == max1) {
+      hsv.x = 2.0 + (B-R)/(max1-min1);
+    }
+    if (B == max1) {
+      hsv.x = 4.0 + (R-G)/(max1-min1);
+    }
+    hsv.x = hsv.x * 60.0;   
+    if (hsv.x < 0.0) hsv.x = hsv.x + 360.0;
+    hsv.z = max1;
+    hsv.y = (max1 - min1) / max1;
+    return hsv;
+  }
+
+  vec3 HSVConvertToRGB(vec3 hsv) {
+    float R,G,B;
+    if( hsv.y == 0.0 ) {
+      R=G=B=hsv.z;
+    }
+    else {
+      hsv.x = hsv.x/60.0; 
+      int i = int(hsv.x);
+      float f = hsv.x - float(i);
+      float a = hsv.z * ( 1.0 - hsv.y );
+      float b = hsv.z * ( 1.0 - hsv.y * f );
+      float c = hsv.z * ( 1.0 - hsv.y * (1.0 - f ) );
+      if(i == 0) {
+        R = hsv.z; G = c; B = a;
+      }
+      else if(i == 1) {
+        R = b; G = hsv.z; B = a; 
+      }
+      else if(i == 2) {
+        R = a; G = hsv.z; B = c; 
+      }
+      else if(i == 3) {
+        R = a; G = b; B = hsv.z;
+      }
+      else if(i == 4) {
+        R = c; G = a; B = hsv.z;
+      }
+      else {
+        R = hsv.z; G = a; B = b; 
+      }
+    }
+    return vec3(R,G,B);
+  }
+
+  vec4 frag () {
+    vec4 o = mainColor;
+    o.rgb *= colorScaleAndCutoff.xyz;
+
+    #if USE_VERTEX_COLOR
+      o *= v_color;
+    #endif
+
+    #if USE_TEXTURE
+      o *= texture(mainTexture,v_uv);
+    #endif
+
+    #if USE_ALPHA_TEST
+      if (o.ALPHA_TEST_CHANNEL < colorScaleAndCutoff.w) discard;
+    #endif
+    vec3 colorHSV = RGBConvertToHSV(o.xyz); //转换为HSV
+    colorHSV.x += (Hue + cc_time.x*-120.0+view_vu.x*360.0); //调整偏移Hue值
+    colorHSV.x = mod(colorHSV.x, 360.0); //超过360的值从0开始
+    colorHSV.y *= Saturation; //调整饱和度
+    colorHSV.z *= Value;
+    o.xyz = HSVConvertToRGB(colorHSV.xyz); //将调整后的HSV，转换为RGB颜色
+    
+    return CCFragOutput(o);
+  }
+}%

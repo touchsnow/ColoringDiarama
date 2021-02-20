@@ -1,0 +1,343 @@
+{
+  "ver": "1.3.21",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "c055f1c5-2ae7-4b46-9eac-24bb3e7ba5a9",
+  "files": [],
+  "subMetas": {
+    "10400": {
+      "importer": "gltf-mesh",
+      "uuid": "c055f1c5-2ae7-4b46-9eac-24bb3e7ba5a9@10400",
+      "displayName": "",
+      "id": "10400",
+      "name": "Grass-7.mesh",
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 7
+      }
+    },
+    "84827": {
+      "importer": "gltf-material",
+      "uuid": "c055f1c5-2ae7-4b46-9eac-24bb3e7ba5a9@84827",
+      "displayName": "",
+      "id": "84827",
+      "name": "cuttingFace_Unlit.material",
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 2
+      }
+    },
+    "3519d": {
+      "importer": "gltf-mesh",
+      "uuid": "c055f1c5-2ae7-4b46-9eac-24bb3e7ba5a9@3519d",
+      "displayName": "",
+      "id": "3519d",
+      "name": "Bowl-0.mesh",
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      }
+    },
+    "b4e70": {
+      "importer": "gltf-mesh",
+      "uuid": "c055f1c5-2ae7-4b46-9eac-24bb3e7ba5a9@b4e70",
+      "displayName": "",
+      "id": "b4e70",
+      "name": "Cat_Body-1.mesh",
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 1
+      }
+    },
+    "e4cbf": {
+      "importer": "gltf-mesh",
+      "uuid": "c055f1c5-2ae7-4b46-9eac-24bb3e7ba5a9@e4cbf",
+      "displayName": "",
+      "id": "e4cbf",
+      "name": "Cat_Head-2.mesh",
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 2
+      }
+    },
+    "986b1": {
+      "importer": "gltf-mesh",
+      "uuid": "c055f1c5-2ae7-4b46-9eac-24bb3e7ba5a9@986b1",
+      "displayName": "",
+      "id": "986b1",
+      "name": "Cat_Tail-3.mesh",
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 3
+      }
+    },
+    "6c6d0": {
+      "importer": "gltf-mesh",
+      "uuid": "c055f1c5-2ae7-4b46-9eac-24bb3e7ba5a9@6c6d0",
+      "displayName": "",
+      "id": "6c6d0",
+      "name": "Grass-4.mesh",
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 4
+      }
+    },
+    "36da6": {
+      "importer": "gltf-mesh",
+      "uuid": "c055f1c5-2ae7-4b46-9eac-24bb3e7ba5a9@36da6",
+      "displayName": "",
+      "id": "36da6",
+      "name": "Grass-5.mesh",
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 5
+      }
+    },
+    "83d2c": {
+      "importer": "gltf-mesh",
+      "uuid": "c055f1c5-2ae7-4b46-9eac-24bb3e7ba5a9@83d2c",
+      "displayName": "",
+      "id": "83d2c",
+      "name": "Grass-6.mesh",
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 6
+      }
+    },
+    "3b90e": {
+      "importer": "gltf-mesh",
+      "uuid": "c055f1c5-2ae7-4b46-9eac-24bb3e7ba5a9@3b90e",
+      "displayName": "",
+      "id": "3b90e",
+      "name": "Grass-8.mesh",
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 8
+      }
+    },
+    "40ce1": {
+      "importer": "gltf-mesh",
+      "uuid": "c055f1c5-2ae7-4b46-9eac-24bb3e7ba5a9@40ce1",
+      "displayName": "",
+      "id": "40ce1",
+      "name": "Grass-9.mesh",
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 9
+      }
+    },
+    "ed47f": {
+      "importer": "gltf-mesh",
+      "uuid": "c055f1c5-2ae7-4b46-9eac-24bb3e7ba5a9@ed47f",
+      "displayName": "",
+      "id": "ed47f",
+      "name": "Plate-10.mesh",
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 10
+      }
+    },
+    "862ad": {
+      "importer": "gltf-mesh",
+      "uuid": "c055f1c5-2ae7-4b46-9eac-24bb3e7ba5a9@862ad",
+      "displayName": "",
+      "id": "862ad",
+      "name": "Tulip01-11.mesh",
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 11
+      }
+    },
+    "bcfbd": {
+      "importer": "gltf-mesh",
+      "uuid": "c055f1c5-2ae7-4b46-9eac-24bb3e7ba5a9@bcfbd",
+      "displayName": "",
+      "id": "bcfbd",
+      "name": "Tulip02-12.mesh",
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 12
+      }
+    },
+    "bbbaf": {
+      "importer": "gltf-mesh",
+      "uuid": "c055f1c5-2ae7-4b46-9eac-24bb3e7ba5a9@bbbaf",
+      "displayName": "",
+      "id": "bbbaf",
+      "name": "[water]-13.mesh",
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 13
+      }
+    },
+    "9ff15": {
+      "importer": "gltf-material",
+      "uuid": "c055f1c5-2ae7-4b46-9eac-24bb3e7ba5a9@9ff15",
+      "displayName": "",
+      "id": "9ff15",
+      "name": "0026_rainyDay.material",
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      }
+    },
+    "a3f27": {
+      "importer": "gltf-material",
+      "uuid": "c055f1c5-2ae7-4b46-9eac-24bb3e7ba5a9@a3f27",
+      "displayName": "",
+      "id": "a3f27",
+      "name": "0026_rainyDay_water.material",
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 1
+      }
+    },
+    "90de8": {
+      "importer": "gltf-scene",
+      "uuid": "c055f1c5-2ae7-4b46-9eac-24bb3e7ba5a9@90de8",
+      "displayName": "",
+      "id": "90de8",
+      "name": "0026_rainyDay.prefab",
+      "ver": "1.0.11",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      }
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "redirect": "c055f1c5-2ae7-4b46-9eac-24bb3e7ba5a9@90de8",
+    "assetFinder": {
+      "meshes": [
+        "c055f1c5-2ae7-4b46-9eac-24bb3e7ba5a9@3519d",
+        "c055f1c5-2ae7-4b46-9eac-24bb3e7ba5a9@b4e70",
+        "c055f1c5-2ae7-4b46-9eac-24bb3e7ba5a9@e4cbf",
+        "c055f1c5-2ae7-4b46-9eac-24bb3e7ba5a9@986b1",
+        "c055f1c5-2ae7-4b46-9eac-24bb3e7ba5a9@6c6d0",
+        "c055f1c5-2ae7-4b46-9eac-24bb3e7ba5a9@36da6",
+        "c055f1c5-2ae7-4b46-9eac-24bb3e7ba5a9@83d2c",
+        "c055f1c5-2ae7-4b46-9eac-24bb3e7ba5a9@10400",
+        "c055f1c5-2ae7-4b46-9eac-24bb3e7ba5a9@3b90e",
+        "c055f1c5-2ae7-4b46-9eac-24bb3e7ba5a9@40ce1",
+        "c055f1c5-2ae7-4b46-9eac-24bb3e7ba5a9@ed47f",
+        "c055f1c5-2ae7-4b46-9eac-24bb3e7ba5a9@862ad",
+        "c055f1c5-2ae7-4b46-9eac-24bb3e7ba5a9@bcfbd",
+        "c055f1c5-2ae7-4b46-9eac-24bb3e7ba5a9@bbbaf"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "c055f1c5-2ae7-4b46-9eac-24bb3e7ba5a9@9ff15",
+        "c055f1c5-2ae7-4b46-9eac-24bb3e7ba5a9@a3f27",
+        "c055f1c5-2ae7-4b46-9eac-24bb3e7ba5a9@84827"
+      ],
+      "scenes": [
+        "c055f1c5-2ae7-4b46-9eac-24bb3e7ba5a9@90de8"
+      ]
+    }
+  }
+}

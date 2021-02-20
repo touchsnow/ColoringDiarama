@@ -1,0 +1,218 @@
+{
+  "ver": "1.3.21",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "9cc0fb9c-b095-40d9-978e-24a742e1c8b2",
+  "files": [],
+  "subMetas": {
+    "46515": {
+      "importer": "gltf-mesh",
+      "uuid": "9cc0fb9c-b095-40d9-978e-24a742e1c8b2@46515",
+      "displayName": "",
+      "id": "46515",
+      "name": "Stage.mesh",
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 5
+      }
+    },
+    "84827": {
+      "importer": "gltf-material",
+      "uuid": "9cc0fb9c-b095-40d9-978e-24a742e1c8b2@84827",
+      "displayName": "",
+      "id": "84827",
+      "name": "cuttingFace_Unlit.material",
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 1
+      }
+    },
+    "b3bf8": {
+      "importer": "gltf-mesh",
+      "uuid": "9cc0fb9c-b095-40d9-978e-24a742e1c8b2@b3bf8",
+      "displayName": "",
+      "id": "b3bf8",
+      "name": "Cherry.mesh",
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      }
+    },
+    "85e7c": {
+      "importer": "gltf-mesh",
+      "uuid": "9cc0fb9c-b095-40d9-978e-24a742e1c8b2@85e7c",
+      "displayName": "",
+      "id": "85e7c",
+      "name": "Cherry_q.mesh",
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 1
+      }
+    },
+    "deb40": {
+      "importer": "gltf-mesh",
+      "uuid": "9cc0fb9c-b095-40d9-978e-24a742e1c8b2@deb40",
+      "displayName": "",
+      "id": "deb40",
+      "name": "leaf.mesh",
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 2
+      }
+    },
+    "e5b59": {
+      "importer": "gltf-mesh",
+      "uuid": "9cc0fb9c-b095-40d9-978e-24a742e1c8b2@e5b59",
+      "displayName": "",
+      "id": "e5b59",
+      "name": "Lemon_Body.mesh",
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 3
+      }
+    },
+    "3c09e": {
+      "importer": "gltf-mesh",
+      "uuid": "9cc0fb9c-b095-40d9-978e-24a742e1c8b2@3c09e",
+      "displayName": "",
+      "id": "3c09e",
+      "name": "Mushroom_Body.mesh",
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 4
+      }
+    },
+    "2fd0f": {
+      "importer": "gltf-mesh",
+      "uuid": "9cc0fb9c-b095-40d9-978e-24a742e1c8b2@2fd0f",
+      "displayName": "",
+      "id": "2fd0f",
+      "name": "Mushroom_Head.mesh",
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 6
+      }
+    },
+    "c2c93": {
+      "importer": "gltf-mesh",
+      "uuid": "9cc0fb9c-b095-40d9-978e-24a742e1c8b2@c2c93",
+      "displayName": "",
+      "id": "c2c93",
+      "name": "Mushroom_mouth.mesh",
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 7
+      }
+    },
+    "7249f": {
+      "importer": "gltf-material",
+      "uuid": "9cc0fb9c-b095-40d9-978e-24a742e1c8b2@7249f",
+      "displayName": "",
+      "id": "7249f",
+      "name": "0055_VacationHomeWork.material",
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      }
+    },
+    "a7bab": {
+      "importer": "gltf-scene",
+      "uuid": "9cc0fb9c-b095-40d9-978e-24a742e1c8b2@a7bab",
+      "displayName": "",
+      "id": "a7bab",
+      "name": "0055_VacationHomeWork.prefab",
+      "ver": "1.0.11",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      }
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "redirect": "9cc0fb9c-b095-40d9-978e-24a742e1c8b2@a7bab",
+    "assetFinder": {
+      "meshes": [
+        "9cc0fb9c-b095-40d9-978e-24a742e1c8b2@b3bf8",
+        "9cc0fb9c-b095-40d9-978e-24a742e1c8b2@85e7c",
+        "9cc0fb9c-b095-40d9-978e-24a742e1c8b2@deb40",
+        "9cc0fb9c-b095-40d9-978e-24a742e1c8b2@e5b59",
+        "9cc0fb9c-b095-40d9-978e-24a742e1c8b2@3c09e",
+        "9cc0fb9c-b095-40d9-978e-24a742e1c8b2@46515",
+        "9cc0fb9c-b095-40d9-978e-24a742e1c8b2@2fd0f",
+        "9cc0fb9c-b095-40d9-978e-24a742e1c8b2@c2c93"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "9cc0fb9c-b095-40d9-978e-24a742e1c8b2@7249f",
+        "9cc0fb9c-b095-40d9-978e-24a742e1c8b2@84827"
+      ],
+      "scenes": [
+        "9cc0fb9c-b095-40d9-978e-24a742e1c8b2@a7bab"
+      ]
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "ver": "1.0.18",
+  "importer": "image",
+  "imported": true,
+  "uuid": "eae926c9-8b5e-44c1-b4ed-9abc12877bdb",
+  "files": [
+    ".png",
+    ".json"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "eae926c9-8b5e-44c1-b4ed-9abc12877bdb@6c48a",
+      "displayName": "VertexLit_touchEffect",
+      "id": "6c48a",
+      "name": "texture",
+      "ver": "1.0.19",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "eae926c9-8b5e-44c1-b4ed-9abc12877bdb"
+      }
+    }
+  },
+  "userData": {
+    "type": "texture",
+    "redirect": "eae926c9-8b5e-44c1-b4ed-9abc12877bdb@6c48a"
+  }
+}

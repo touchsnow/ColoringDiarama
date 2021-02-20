@@ -1,0 +1,92 @@
+{
+  "ver": "1.3.21",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "23fdc2a8-f0e9-43e0-9c8e-9feea761f8ac",
+  "files": [],
+  "subMetas": {
+    "f79a0": {
+      "importer": "gltf-mesh",
+      "uuid": "23fdc2a8-f0e9-43e0-9c8e-9feea761f8ac@f79a0",
+      "displayName": "",
+      "id": "f79a0",
+      "name": "[water].mesh",
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".json",
+        ".bin"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      }
+    },
+    "1b1a6": {
+      "importer": "gltf-material",
+      "uuid": "23fdc2a8-f0e9-43e0-9c8e-9feea761f8ac@1b1a6",
+      "displayName": "",
+      "id": "1b1a6",
+      "name": "0010_paradiceIsland_water-0.material",
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      }
+    },
+    "e6093": {
+      "importer": "gltf-material",
+      "uuid": "23fdc2a8-f0e9-43e0-9c8e-9feea761f8ac@e6093",
+      "displayName": "",
+      "id": "e6093",
+      "name": "0010_paradiceIsland_water-1.material",
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 1
+      }
+    },
+    "ef207": {
+      "importer": "gltf-scene",
+      "uuid": "23fdc2a8-f0e9-43e0-9c8e-9feea761f8ac@ef207",
+      "displayName": "",
+      "id": "ef207",
+      "name": "0010_paradiceIsland_water.prefab",
+      "ver": "1.0.11",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "gltfIndex": 0
+      }
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "redirect": "23fdc2a8-f0e9-43e0-9c8e-9feea761f8ac@ef207",
+    "assetFinder": {
+      "meshes": [
+        "23fdc2a8-f0e9-43e0-9c8e-9feea761f8ac@f79a0"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "23fdc2a8-f0e9-43e0-9c8e-9feea761f8ac@1b1a6",
+        "23fdc2a8-f0e9-43e0-9c8e-9feea761f8ac@e6093"
+      ],
+      "scenes": [
+        "23fdc2a8-f0e9-43e0-9c8e-9feea761f8ac@ef207"
+      ]
+    }
+  }
+}

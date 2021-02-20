@@ -1,0 +1,15 @@
+{
+  "ver": "2.0.14",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "cee58695-78c9-4346-9b1d-5a90c1f817dd",
+  "files": [
+    ".js",
+    ".trans"
+  ],
+  "subMetas": {},
+  "userData": {
+    "importAsPlugin": false,
+    "moduleId": "project:///assets/FrameworkModelPuzzle/Scene/BasePuzzleGameScene.js"
+  }
+}
